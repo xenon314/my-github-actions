@@ -1,0 +1,2 @@
+This is a Github action which triggers on both
+push and pull_request events
