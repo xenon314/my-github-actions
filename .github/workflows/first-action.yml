@@ -1,5 +1,8 @@
 name: Run shell commands
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - 'dev/**'
 jobs:
   my-first-shell-execution:
     runs-on: ubuntu-latest
